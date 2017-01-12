@@ -574,7 +574,7 @@ $(document).ready(function(){
 
     }) (jQuery);
 
-    $('.tree').roots(139, 'gedcom.json', {bakgr: true}); //269
+    $('.tree').roots(0, 'gedcom.json', {bakgr: true}); 
 
 });
 
