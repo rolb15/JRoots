@@ -35,6 +35,7 @@ Anropa i Javascript på följande vis: (centrumId anger centrumperson)
 
 Options:
 bakgr: true //Visar bakgrund
+
 bakgr: false //Ingen bakgrund
 
 Exempel:
