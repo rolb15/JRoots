@@ -574,20 +574,7 @@ $(document).ready(function(){
 
     }) (jQuery);
 
-    $('.tree').roots(139, 'disgen2.json', {bakgr: true}); //269
-
-    //Exempel på antavlor med olika json-filer
-    $("#ana1").click(function(){
-        $('.tree').roots(40, 'disgen2.json');
-    });
-
-    $("#ana2").click(function(){
-        $('.tree').roots(0, 'afEkna.json');
-    });
-    $("#ana4").click(function(){
-        $('.tree').roots(0, 'afEkna.json');
-    });
-
+    $('.tree').roots(139, 'gedcom.json', {bakgr: true}); //269
 
 });
 
