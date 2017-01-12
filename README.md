@@ -24,8 +24,10 @@ Installation
 Inkludera följande i din Html-fil:
 <pre><code>
 ❮link rel="stylesheet" type="text/css" href="antavla.css"❯
+
 ❮div class="tree"❯❮/div❯
 ❮canvas id="backlines" width="1200" height="540"❯❮/canvas❯
+
 ❮script src="JRoots.js" type="text/javascript"❯❮/script❯
 </code></pre>
 Anropa i Javascript på följande vis: (centrumId anger centrumperson)
