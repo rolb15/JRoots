@@ -6,10 +6,12 @@ JRoots gör det enkelt att visa upp så kallade antavlor och kan användas över
 Krav
 -------------
 
-jQuery JavaScript Library 
+jQuery JavaScript Library.
+
 En Gedcom-fil konverterad till JSON. 
 
 Funktioner
+-------------
 
 * Ett enkelt klick på en person visar en kortfattad ansedel för individen: född, död och antal barn.
 * Håller man pekaren över en person visas födelsedatum och individens unika id-nummer.
