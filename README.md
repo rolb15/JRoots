@@ -10,19 +10,20 @@ En Gedcom-fil konverterad till JSON.
 
 Funktioner
 
-    Ett enkelt klick på en person visar en kortfattad ansedel för individen: född, död och antal barn.
-    Håller man pekaren över en person visas födelsedatum och individens unika id-nummer.
-    Dubbelklickar man så placeras personen som centrumperson, alltså visas en ny antavla med dennes förfäder i fyra generationer.
-    För att se centrumpersonens barn klickar man på den blå triangeln under personen.
+* Ett enkelt klick på en person visar en kortfattad ansedel för individen: född, död och antal barn.
+* Håller man pekaren över en person visas födelsedatum och individens unika id-nummer.
+* Dubbelklickar man så placeras personen som centrumperson, alltså visas en ny antavla med dennes förfäder i fyra generationer.
+* För att se centrumpersonens barn klickar man på den blå triangeln under personen.
     
 Installation
 
 Inkludera följande i din Html-fil:
+<pre><code>
 ❮link rel="stylesheet" type="text/css" href="antavla.css"❯
 ❮div class="tree"❯❮/div❯
 ❮canvas id="backlines" width="1200" height="540"❯❮/canvas❯
 ❮script src="JRoots.js" type="text/javascript"❯❮/script❯
-
+</code></pre>
 Anropa i Javascript på följande vis: (centrumId anger centrumperson)
 $('.tree').roots(centrumId, 'disgenData.json', {bakgr: true});
 
