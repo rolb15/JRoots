@@ -1,6 +1,6 @@
 # JRoots
-En jquery-plugin för presentation av Gedcom-data
-GEDCOM är ett vanligt filformat som gör att olika släktträdsprogram kan kommunicera med varandra. Nästan alla släktträdsprogram stöder import av träd från en GEDCOM-fil och export till GEDCOM-format.
+En jquery-plugin för presentation av Gedcom-data.
+GEDCOM är ett vanligt filformat som gör att olika släktträdsprogram kan kommunicera med varandra. De flesta släktträdsprogram stöder import och export från en GEDCOM-fil.
 JRoots gör det enkelt att visa upp så kallade antavlor och kan användas överallt utan att behöva en databas. Det är också enkelt att lägga till en egen navigation bland olika antavlor med skilda json-filer.
 
 Krav
